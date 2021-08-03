@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -20,7 +20,7 @@
     
     
       
-        <title>profle - Document</title>
+        <title>Profile - Document</title>
       
     
     
@@ -43,6 +43,10 @@
     
     
       <link rel="stylesheet" href="../assets/css/extra.css">
+    
+      <link rel="stylesheet" href="../assets/css/table.css">
+    
+      <link rel="stylesheet" href="../assets/css/extra-text.css">
     
     
       
@@ -71,7 +75,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -84,8 +88,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#profile" class="md-skip">
-          Skip to content
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
         </a>
       
     </div>
@@ -94,7 +98,7 @@
     </div>
     
       <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
     <a href=".." title="Document" class="md-header__button md-logo" aria-label="Document" data-md-component="logo">
       
   
@@ -119,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              profle
+              Profile
             
           </span>
         </div>
@@ -130,20 +134,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
-            </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
-            </label>
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
           
         
       </form>
@@ -158,7 +149,7 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -169,7 +160,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
           </a>
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" aria-label="クリア" tabindex="-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
         </button>
       </nav>
@@ -181,7 +172,7 @@
       <div class="md-search__scrollwrap" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            検索を初期化
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -199,7 +190,7 @@
       
         
           
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -240,7 +231,7 @@
 
   <li class="md-tabs__item">
     <a href="./" class="md-tabs__link md-tabs__link--active">
-      profle
+      Profile
     </a>
   </li>
 
@@ -265,7 +256,7 @@
 
   
 
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Document" class="md-nav__button md-logo" aria-label="Document" data-md-component="logo">
       
@@ -411,16 +402,16 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          profle
+          Profile
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        profle
+        Profile
       </a>
       
         
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目次">
   
   
   
@@ -429,20 +420,184 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目次
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#_2" class="md-nav__link">
+    基本情報
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#_3" class="md-nav__link">
+    スキル
+  </a>
+  
+    <nav class="md-nav" aria-label="スキル">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    開発言語
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    フレームワーク
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    ツール
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    その他
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    職務経歴
+  </a>
+  
+    <nav class="md-nav" aria-label="職務経歴">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#201604" class="md-nav__link">
+    2016/04 ~ 現在 : ****株式会社
+  </a>
+  
+    <nav class="md-nav" aria-label="2016/04 ~ 現在 : ****株式会社">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#013dweb" class="md-nav__link">
+    職01：3D表示Webアプリケーションの基盤/リプレイス開発
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#023dweb" class="md-nav__link">
+    職02：3D表示Webアプリケーションの開発
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#03" class="md-nav__link">
+    職03：棒衣服メーカのアプリの税込み対応
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#04tv" class="md-nav__link">
+    職04：TV電話を用いた学習アプリの開発
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#05" class="md-nav__link">
+    職05：社内マッチングアプリの開発
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#06" class="md-nav__link">
+    職06：遠隔診療システム
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#07" class="md-nav__link">
+    職07：某衣料メーカのファンアプリの初期開発
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#08" class="md-nav__link">
+    職08：メールシステムの新規開発のテスト設計/自動化/実施
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#09" class="md-nav__link">
+    職09：某私鉄の公式アプリの保守/追加開発
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    課外活動
+  </a>
+  
+    <nav class="md-nav" aria-label="課外活動">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    受賞歴
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    社外プロジェクト
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    執筆歴
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    お問い合わせ
   </a>
   
 </li>
@@ -468,21 +623,361 @@
               
                 
                 
-                <h1 id="profile">Profile<a class="headerlink" href="#profile" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
+                <h1 id="_1">プロフィール<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><img alt="📆" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4c6.svg" title=":calendar:" /> 作成日：2021.8.3　<img alt="📆" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4c6.svg" title=":calendar:" /> 更新日：2021.8.3</p>
+<hr />
+<h2 id="_2">基本情報<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>TODO: 後ほど</p>
+<h2 id="_3">スキル<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">開発言語<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">開発言語</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Typescript</li>
+<li>SQLite</li>
+<li>Swift</li>
+<li>Java</li>
+<li>GAS</li>
+<li>Python3</li>
 </ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+</div>
+<h3 id="_5">フレームワーク<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">フレームワーク</p>
+<ul>
+<li>React</li>
+<li>React Native</li>
+<li>Spring Boot</li>
+</ul>
+</div>
+<h3 id="_6">ツール<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">ツール</p>
+<ul>
+<li>Docker</li>
+<li>Pulumi</li>
+<li>Hasura</li>
+<li>Git<ul>
+<li>Github</li>
+<li>AWS Codecommit</li>
+<li>Bitbacket</li>
+</ul>
+</li>
+<li>Heroku</li>
+<li>CI/CD<ul>
+<li>AWS CodeBuild</li>
+<li>Jenkins</li>
+<li>Github Actions</li>
+</ul>
+</li>
+<li>Google Analytics</li>
+<li>Slack API</li>
+<li>エコシステム<ul>
+<li>認証<ul>
+<li>Auth0</li>
+<li>Cognito</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Amplify</li>
+<li>Google Workspace(旧Gsite)<ul>
+<li>メール設定などに携わる</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="_7">その他<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">その他</p>
+<ul>
+<li>アジャイル開発(数年の経験あり)</li>
+<li>社内ツールの作成<ul>
+<li>Slackのワークフローを用いた勤怠連絡</li>
+<li>SlackのAPIを用いた勤怠連絡抽出ツールの作成</li>
+</ul>
+</li>
+<li>社内の見積りの相談、技術的な相談に乗ることも多々実施</li>
+<li>社外プロジェクトのシステムはフロント、API、インフラなどの技術的な対応はすべて一人で実施</li>
+</ul>
+</div>
+<!-- - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど -->
+
+<!-- ## やったことはないが興味があるもの -->
+
+<h2 id="_8">職務経歴<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="201604"><strong>2016/04 ~ 現在</strong> : ****株式会社<a class="headerlink" href="#201604" title="Permanent link">&para;</a></h3>
+<h4 id="013dweb">職01：3D表示Webアプリケーションの基盤/リプレイス開発<a class="headerlink" href="#013dweb" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">3D表示Webアプリケーションのリプレイス開発 <code>プロジェクトリーダー(PL)</code> / <code>iOSアプリエンジニア</code> <span class="twemoji"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1024.000000pt" height="768.000000pt" viewBox="0 0 1024.000000 768.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,768.000000) scale(0.100000,-0.100000)"
+fill="#ff0000" stroke="none">
+<path d="M5810 7299 c0 -175 -15 -253 -69 -356 -96 -183 -264 -362 -616 -653
+-426 -352 -557 -518 -588 -740 -23 -170 57 -365 233 -568 109 -126 326 -324
+451 -412 33 -23 33 -23 -12 30 -184 221 -305 421 -371 613 -29 83 -32 104 -32
+212 -1 105 3 129 25 192 58 159 161 274 471 526 238 193 391 347 461 465 99
+164 140 352 118 541 -11 87 -54 277 -66 290 -3 2 -5 -61 -5 -140z"/>
+<path d="M6250 6301 c-559 -232 -876 -445 -977 -657 -35 -73 -38 -86 -37 -164
+1 -109 29 -184 127 -338 216 -340 222 -352 222 -482 0 -112 -15 -152 -90 -245
+-27 -33 -42 -55 -34 -49 8 6 50 38 95 72 100 75 210 181 253 245 41 60 71 144
+71 197 0 61 -37 158 -88 232 -145 209 -170 248 -192 298 -36 84 -33 186 7 271
+89 189 272 351 708 625 39 24 66 43 60 43 -5 0 -62 -22 -125 -48z"/>
+<path d="M6711 4564 c-60 -13 -219 -80 -210 -88 2 -2 29 0 59 6 68 13 179 5
+243 -17 63 -23 129 -88 150 -150 80 -233 -141 -562 -508 -757 -38 -21 -63 -38
+-55 -38 35 0 250 63 329 97 136 58 219 112 307 198 127 125 183 260 171 408
+-15 175 -141 314 -317 347 -66 13 -89 12 -169 -6z"/>
+<path d="M4345 4484 c-396 -72 -625 -149 -666 -225 -72 -136 607 -248 1325
+-219 428 18 735 62 1013 146 106 32 318 122 310 131 -2 2 -35 -3 -73 -11 -366
+-76 -1374 -142 -1800 -117 -255 15 -384 47 -384 97 0 39 147 116 360 188 74
+25 128 45 120 45 -8 0 -100 -16 -205 -35z"/>
+<path d="M4275 3854 c-189 -107 -211 -187 -71 -253 118 -55 305 -85 626 -102
+361 -18 864 15 1140 76 107 24 210 55 210 63 -1 4 -46 37 -102 75 l-102 68
+-210 -35 c-433 -72 -841 -104 -1080 -86 -203 16 -295 47 -331 113 -20 37 -20
+38 10 110 11 25 -2 21 -90 -29z"/>
+<path d="M4404 3255 c-73 -35 -134 -92 -134 -123 0 -174 833 -283 1420 -186
+144 24 361 92 360 113 -1 3 -57 40 -127 82 l-126 76 -71 -13 c-452 -87 -978
+-90 -1173 -9 -52 22 -85 54 -77 77 3 10 4 18 2 18 -2 0 -35 -16 -74 -35z"/>
+<path d="M4048 2883 c7 -3 16 -2 19 1 4 3 -2 6 -13 5 -11 0 -14 -3 -6 -6z"/>
+<path d="M3895 2869 c-381 -53 -615 -122 -655 -191 -43 -77 92 -141 440 -208
+636 -121 1860 -146 2506 -50 406 60 641 148 710 266 25 42 32 107 14 134 -8
+12 -10 11 -10 -6 0 -27 -54 -81 -110 -108 -246 -124 -869 -196 -1689 -196
+-846 0 -1473 76 -1507 183 -15 47 80 96 301 153 125 32 125 41 0 23z"/>
+<path d="M7221 2644 c-3 -27 -102 -107 -181 -148 -383 -198 -1200 -317 -2078
+-303 -504 8 -790 45 -1005 132 -16 7 -18 3 -15 -21 21 -180 1256 -281 2173
+-178 476 53 819 152 991 285 80 61 133 157 121 219 -2 14 -5 20 -6 14z"/>
+<path d="M2850 1740 l0 -80 175 0 175 0 0 -512 c0 -285 -5 -544 -10 -583 -13
+-88 -47 -141 -113 -174 -84 -41 -262 -39 -389 5 l-38 13 0 -98 c0 -115 -15
+-103 155 -122 308 -32 500 58 577 271 l23 65 3 648 3 647 -280 0 -281 0 0 -80z"/>
+<path d="M7370 1461 c23 -6 25 -12 28 -74 4 -87 20 -87 24 0 3 62 5 68 28 74
+16 5 1 7 -40 7 -41 0 -56 -2 -40 -7z"/>
+<path d="M7500 1395 c0 -43 4 -75 10 -75 6 0 10 27 10 62 0 34 2 59 5 57 2 -3
+11 -29 18 -59 8 -30 19 -56 25 -58 6 -2 16 16 22 40 21 82 29 88 29 21 1 -35
+5 -63 11 -63 6 0 10 32 10 75 0 68 -2 75 -20 75 -15 0 -22 -11 -31 -45 -11
+-44 -29 -70 -29 -43 0 7 -5 30 -11 51 -7 26 -15 37 -29 37 -18 0 -20 -7 -20
+-75z"/>
+<path d="M4118 1440 c-84 -8 -165 -22 -240 -41 l-38 -10 0 -99 c0 -55 2 -100
+5 -100 2 0 28 9 57 19 122 45 179 55 328 55 91 1 161 -4 187 -12 87 -26 142
+-103 143 -197 l0 -51 -167 -13 c-290 -22 -455 -68 -552 -156 -23 -21 -55 -66
+-73 -104 -30 -61 -32 -73 -32 -171 -1 -92 3 -112 26 -161 65 -142 206 -229
+368 -229 121 1 266 50 372 125 26 19 50 35 53 35 3 0 5 -29 5 -65 l0 -65 100
+0 100 0 0 438 c0 454 -5 523 -42 595 -49 97 -156 172 -278 195 -82 16 -224 21
+-322 12z m442 -774 l0 -174 -66 -42 c-107 -68 -184 -92 -289 -93 -137 -1 -207
+29 -246 105 -23 46 -28 144 -9 193 24 62 101 118 200 145 55 15 251 37 343 39
+l67 1 0 -174z"/>
+<path d="M6720 1439 c-52 -5 -133 -17 -180 -27 l-85 -18 -3 -102 c-1 -56 -1
+-102 0 -102 2 0 31 9 63 21 162 57 382 77 492 44 108 -32 163 -101 163 -202
+l0 -53 -43 0 c-83 0 -359 -30 -425 -46 -83 -21 -196 -72 -240 -108 -85 -73
+-128 -185 -120 -316 12 -208 180 -361 398 -360 121 1 268 50 370 125 26 19 50
+35 54 35 3 0 6 -29 6 -65 l0 -65 100 0 100 0 0 438 c0 474 -6 534 -55 617 -51
+88 -151 152 -275 175 -78 15 -222 19 -320 9z m450 -772 l0 -172 -51 -34 c-130
+-85 -254 -119 -371 -102 -123 17 -176 59 -198 155 -28 126 39 231 177 275 74
+24 256 48 376 50 l67 1 0 -173z"/>
+<path d="M5020 1409 c0 -5 106 -274 236 -597 130 -323 239 -593 241 -600 4 -9
+31 -12 105 -10 l100 3 129 320 c71 176 181 447 244 602 63 155 115 285 115
+288 0 3 -46 4 -102 3 l-102 -3 -108 -280 c-214 -553 -260 -670 -267 -678 -4
+-4 -93 211 -197 478 l-189 485 -102 0 c-66 0 -103 -4 -103 -11z"/>
+</g>
+</svg>
+</span></p>
+<ul>
+<li>
+<p><strong>業務年数：</strong> 0年6月（2021.03 ~ 現在）</p>
+</li>
+<li>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>業務開発の要件定義</li>
+<li>検証iOSアプリの開発</li>
+</ul>
+</li>
+</ul>
+</div>
+<h4 id="023dweb">職02：3D表示Webアプリケーションの開発<a class="headerlink" href="#023dweb" title="Permanent link">&para;</a></h4>
+<div class="admonition abstract">
+<p class="admonition-title">3D表示Webアプリケーションの開発 <code>Webエンジニア(SSR)</code> / <code>iOSアプリエンジニア</code> / <code>AWS</code></p>
+<ul>
+<li>
+<p><strong>業務年数：</strong> 0年2月（2021.03 ~ 2021.04）</p>
+</li>
+<li>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>既存システムの類似アプリの開発</li>
+<li>検証iOSアプリの開発</li>
+</ul>
+</li>
+</ul>
+</div>
+<h4 id="03">職03：棒衣服メーカのアプリの税込み対応<a class="headerlink" href="#03" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">某衣服メーカのアプリの税込み対応 <code>Android</code> / <code>iOS</code> / <code>新人教育</code></p>
+<p><strong>業務年数：</strong> 0年3月（2021.02 ~ 2021.05）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>Webおよびスマートフォンアプリを用いた遠隔診療システムの開発</li>
+</ul>
+</div>
+<h4 id="04tv">職04：TV電話を用いた学習アプリの開発<a class="headerlink" href="#04tv" title="Permanent link">&para;</a></h4>
+<div class="admonition abstract">
+<p class="admonition-title">TV電話を用いた学習アプリの開発 <code>ReactNative</code> / <code>Auth0</code> / <code>アジャイル開発</code> <span class="twemoji"><?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#0CF3F7" stroke="none">
+<path d="M2375 4549 c-632 -59 -1200 -420 -1535 -974 -200 -331 -305 -779
+-272 -1162 43 -504 233 -917 581 -1264 484 -482 1137 -680 1811 -548 598 117
+1131 532 1400 1092 166 344 229 716 184 1097 -70 601 -393 1115 -919 1460
+-344 225 -820 339 -1250 299z m-194 -920 c108 -36 210 -96 320 -191 31 -26 61
+-48 66 -48 5 0 20 12 34 26 35 37 155 126 220 162 120 68 251 91 331 57 130
+-54 188 -277 143 -550 -8 -49 -15 -97 -15 -105 0 -10 25 -23 73 -39 160 -52
+305 -141 377 -232 73 -93 76 -175 10 -278 -61 -94 -195 -183 -386 -255 l-71
+-26 15 -68 c10 -41 16 -122 16 -207 1 -121 -2 -150 -23 -212 -88 -270 -350
+-255 -686 40 l-40 35 -60 -53 c-185 -161 -384 -241 -513 -206 -60 17 -123 82
+-152 157 -31 81 -39 263 -16 390 8 50 18 98 22 108 4 11 1 16 -12 16 -29 1
+-196 73 -272 118 -203 121 -272 262 -196 401 57 105 200 204 389 271 49 17 90
+32 92 33 1 2 -7 45 -17 97 -22 107 -26 270 -9 352 41 190 175 268 360 207z"/>
+<path d="M3013 3539 c-88 -16 -225 -96 -321 -185 l-52 -49 56 -65 c30 -36 76
+-93 100 -127 49 -67 51 -68 139 -78 33 -3 95 -13 138 -21 43 -9 84 -13 92 -11
+20 8 39 137 39 262 1 216 -57 299 -191 274z"/>
+<path d="M1992 3525 c-54 -39 -90 -180 -77 -310 5 -58 33 -216 38 -221 1 -1
+44 6 95 16 52 10 125 21 163 25 l69 7 52 71 c29 39 74 96 100 127 26 30 48 60
+48 65 0 26 -180 157 -276 202 -74 34 -177 43 -212 18z"/>
+<path d="M2534 3198 c-11 -13 -42 -49 -68 -80 l-48 -58 141 0 142 0 -37 48
+c-49 61 -96 112 -104 112 -4 0 -15 -10 -26 -22z"/>
+<path d="M2398 2953 l-57 -4 -64 -102 c-35 -56 -85 -143 -112 -193 l-48 -90
+47 -93 c26 -52 76 -139 110 -195 l64 -101 99 -6 c54 -4 156 -4 226 -1 l128 5
+56 91 c67 108 163 288 163 305 0 15 -90 175 -162 287 l-58 91 -83 6 c-81 7
+-200 7 -309 0z m259 -194 c173 -84 157 -339 -26 -404 -83 -29 -154 -12 -222
+55 -87 83 -92 194 -14 296 54 71 174 96 262 53z"/>
+<path d="M2080 2914 c-41 -8 -80 -16 -87 -19 -8 -2 -1 -33 22 -95 19 -50 37
+-95 41 -101 3 -6 26 26 50 71 24 45 52 94 62 108 34 49 35 52 10 51 -13 0 -57
+-7 -98 -15z"/>
+<path d="M2986 2823 c35 -59 64 -111 64 -115 0 -43 70 100 82 167 2 16 -6 21
+-49 31 -28 6 -76 15 -106 18 l-55 7 64 -108z"/>
+<path d="M1789 2841 c-209 -78 -349 -189 -349 -276 0 -67 79 -156 197 -222 66
+-36 204 -93 228 -93 7 0 21 23 30 53 10 28 36 97 58 152 l40 100 -23 60 c-12
+33 -38 104 -58 158 -19 53 -37 97 -41 97 -3 -1 -40 -14 -82 -29z"/>
+<path d="M3247 2862 c-3 -4 -10 -25 -17 -47 -7 -22 -32 -88 -56 -146 l-43
+-106 38 -89 c21 -49 48 -119 61 -157 27 -77 16 -76 150 -19 234 98 339 217
+285 321 -23 46 -113 120 -195 161 -90 45 -218 92 -223 82z"/>
+<path d="M2016 2328 c-37 -101 -37 -117 -1 -118 6 0 49 -6 98 -14 48 -7 87
+-11 87 -10 0 2 -20 34 -44 71 -24 37 -55 92 -70 121 -14 28 -28 52 -29 52 -2
+0 -20 -46 -41 -102z"/>
+<path d="M3027 2365 c-20 -38 -50 -94 -67 -122 l-32 -53 24 0 c13 0 62 7 110
+16 l86 16 -25 66 c-13 37 -32 85 -42 107 l-18 40 -36 -70z"/>
+<path d="M3128 2110 c-15 -4 -83 -16 -150 -25 -68 -9 -126 -19 -129 -23 -3 -4
+-35 -45 -72 -92 -37 -47 -81 -103 -99 -124 l-32 -39 39 -35 c187 -164 368
+-237 446 -179 26 20 50 63 65 119 27 103 8 400 -26 405 -8 1 -27 -2 -42 -7z"/>
+<path d="M1946 2095 c-3 -8 -13 -65 -22 -127 -26 -181 -4 -309 63 -369 35 -30
+39 -31 97 -25 97 10 252 92 365 193 l44 39 -50 56 c-28 31 -76 90 -107 131
+l-57 74 -82 8 c-45 3 -116 13 -157 21 -92 17 -87 17 -94 -1z"/>
+<path d="M2436 2036 c28 -40 119 -145 127 -145 11 -1 137 147 137 161 0 2 -63
+3 -139 3 -136 1 -139 0 -125 -19z"/>
+</g>
+</svg>
+</span></p>
+<p><strong>業務年数：</strong> 0年2月（2020.10 ~ 2021.03）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>ReactNativeを用いたTV電話開発</li>
+</ul>
+</div>
+<h4 id="05">職05：社内マッチングアプリの開発<a class="headerlink" href="#05" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">社内マッチングアプリの開発 <code>React(SPA)</code> / <code>Auth0</code> / <code>アジャイル開発</code> / <code>Neo4J</code></p>
+<p><strong>業務年数：</strong> 0年6月（2020.04 ~ 2020.10）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>グラフデータベースを用いた社内マッチングアプリの開発</li>
+<li>社内の知権の共有システム</li>
+</ul>
+</div>
+<h4 id="06">職06：遠隔診療システム<a class="headerlink" href="#06" title="Permanent link">&para;</a></h4>
+<div class="admonition abstract">
+<p class="admonition-title">遠隔診療システム <code>プロジェクトリーダー(PL)</code> / <code>TV電話</code> / <code>Auth0</code> / <code>アジャイル開発</code> / <code>決済システム</code></p>
+<p><strong>業務年数：</strong> 1年7月（2018.10 ~ 2020.03）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>Webおよびスマートフォンアプリを用いた遠隔診療システムの開発</li>
+</ul>
+</div>
+<h4 id="07">職07：某衣料メーカのファンアプリの初期開発<a class="headerlink" href="#07" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">某衣料メーカのファンアプリの初期開発 <code>CMS</code></p>
+<p><strong>業務年数：</strong> 0年4月（2018.06 ~ 2018.10）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>コンテンツの配信システムの開発</li>
+</ul>
+</div>
+<h4 id="08">職08：メールシステムの新規開発のテスト設計/自動化/実施<a class="headerlink" href="#08" title="Permanent link">&para;</a></h4>
+<div class="admonition abstract">
+<p class="admonition-title">メールシステムの新規開発のテスト設計/自動化/実施 <code>Junit</code> / <code>Selenium</code></p>
+<p><strong>業務年数：</strong> 0年3月（2018.03 ~ 2018.06）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>テスト設計/実施</li>
+<li>テストの自動化</li>
+</ul>
+</div>
+<h4 id="09">職09：某私鉄の公式アプリの保守/追加開発<a class="headerlink" href="#09" title="Permanent link">&para;</a></h4>
+<div class="admonition note">
+<p class="admonition-title">某私鉄の公式アプリの保守/追加開発 <code>Androidアプリ</code> / <code>iOSアプリ</code> / <code>CMS</code></p>
+<p><strong>業務年数：</strong> 1年7月（2016.08 ~ 2018.03）</p>
+<p><strong>職務詳細</strong></p>
+<ul>
+<li>保守/追加開発</li>
+</ul>
+</div>
+<h2 id="_9">課外活動<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<h3 id="_10">受賞歴<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">受賞歴</p>
+<ul>
+<li>2012年<ul>
+<li><a href="http://kuma2.isl.titech.ac.jp/mac/">モバイルアプリコンテスト　2012</a> 準優秀賞</li>
+<li><a href="https://www.tohoku-gakuin.ac.jp/info/top/121206-2.html">東北学院大学 学長表彰</a> 学長表彰</li>
+</ul>
+</li>
+<li>2018年<ul>
+<li><a href="https://history.spajam.jp/2018/entry/sendai/">SPAJAM2018</a> 予選落ち</li>
+<li><a href="https://givery.co.jp/press/2595/">駅すぱあとオンラインハッカソン</a> 最優秀賞</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="_11">社外プロジェクト<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">携わっているサービス</p>
+<ul>
+<li><a href="https://dentable.life/">歯列矯正プラン提供サービス - dentable</a></li>
+</ul>
+</div>
+<h3 id="_12">執筆歴<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">執筆歴</p>
+<ul>
+<li><a href="https://qiita.com/YMori0811">Qiita</a></li>
+</ul>
+</div>
+<h2 id="_13">お問い合わせ<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">メール</p>
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#116;&#111;&#98;&#101;&#55;&#55;&#53;&#51;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#116;&#111;&#98;&#101;&#55;&#55;&#53;&#51;&#55;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+</ul>
+</div>
+<p><a class="md-button md-button--primary" href="mailto:tobe77537@gmail.com">お問い合わせ(メール)</a></p>
                 
               
               
@@ -504,17 +999,17 @@ docs/
         
 <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
+    <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../tips/doc/mkdocs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: mkdocs" rel="prev">
+        <a href="../tips/doc/mkdocs/" class="md-footer__link md-footer__link--prev" aria-label="前: mkdocs" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
-                Previous
+                前
               </span>
               mkdocs
             </div>
@@ -543,7 +1038,7 @@ docs/
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tabs.link", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.annotate", "content.tabs.link", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.integrate"], "translations": {"clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\u3000\u3001\u3002\uff0c\uff0e]+", "search.placeholder": "\u691c\u7d22", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.2b46852b.min.js"></script>

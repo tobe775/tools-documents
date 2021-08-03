@@ -1,0 +1,18 @@
+/* リンク */
+.md-typeset a {
+    color: #69aefce3;
+}
+
+.md-typeset a:focus, .md-typeset a:hover {
+    color: hsla(0, 69%, 67%, 1);
+}
+
+/* navigation */
+.md-nav__item .md-nav__link--active {
+    color: #69aefce3;
+    /* color: rgba(99, 221, 23, 0.685); */
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+    color: hsla(0, 69%, 67%, 1);
+}
