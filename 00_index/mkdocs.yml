@@ -5,6 +5,7 @@ site_description: tips list
 
 theme:
   name: material
+  # custom_dir: overrides
   features:
     - content.code.annotate
     - content.tabs.link
@@ -41,13 +42,13 @@ theme:
   icon:
     logo: logo
 nav:
-  - index.md
+  - Welcome: index.md
   - Tips:
     - ツール: tips/doc/index.md
     - ツール詳細:
       - Docusaurus: tips/doc/docusaurus.md
       - mkdocs: tips/doc/mkdocs.md
-  - profile.md
+  - profle: profile.md
 
 markdown_extensions:
   - admonition
@@ -99,3 +100,19 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+
+plugins:
+    - search
+    # - pdf-export:
+    #     add_full_urls: false
+    #     add_table_of_contents: true
+    #     toc_title: "Table of Contents"
+    #     toc_depth: 2
+    #     enumerate_headings: true
+    #     enumerate_figures: true
+    #     add_cover_page: true
+    #     combined: false
+    #     combined_output_path: dist/
+
+extra_css:
+  - assets/css/extra.css
