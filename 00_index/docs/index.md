@@ -1,4 +1,4 @@
-# Welcome to 1010 doc
+# Welcome
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -6,6 +6,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
   <img src="https://dummyimage.com/600x400/eee/aaa" width="300" />
   <figcaption>Image caption</figcaption>
 </figure>
+
+!!! note "Phasellus posuere in sem ut cursus"
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 ## Commands
 
