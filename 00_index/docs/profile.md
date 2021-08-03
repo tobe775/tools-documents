@@ -192,8 +192,6 @@ TODO: 後ほど
 
 ## お問い合わせ
 
-!!! note "メール"
-    - tobe77537@gmail.com
 
-[お問い合わせ(メール)](mailto:tobe77537@gmail.com){ .md-button .md-button--primary }
+[お問い合わせ(Google Form)](https://forms.gle/JKqp8AzbZAGfY6taA){ .md-button .md-button--primary }
 
