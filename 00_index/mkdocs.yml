@@ -5,6 +5,7 @@ site_description: tips list
 
 theme:
   name: material
+  language: 'ja'
   # custom_dir: overrides
   features:
     - content.code.annotate
@@ -23,18 +24,18 @@ theme:
     - search.suggest
     - toc.integrate
   palette:
-    - scheme: default
+    - scheme: slate
       primary: indigo
       accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: red
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
+    # - scheme: default
+    #   primary: indigo
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -48,7 +49,7 @@ nav:
     - ツール詳細:
       - Docusaurus: tips/doc/docusaurus.md
       - mkdocs: tips/doc/mkdocs.md
-  - profle: profile.md
+  - Profile: profile.md
 
 markdown_extensions:
   - admonition
@@ -70,6 +71,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
@@ -102,7 +106,11 @@ extra:
       make our documentation better.
 
 plugins:
-    - search
+  search:
+    language: jp
+    separator: '[\s\-\.]+'
+
+
     # - pdf-export:
     #     add_full_urls: false
     #     add_table_of_contents: true
@@ -116,3 +124,5 @@ plugins:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/table.css
+  - assets/css/extra-text.css

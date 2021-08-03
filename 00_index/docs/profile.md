@@ -1,17 +1,199 @@
-# Profile
+# プロフィール
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+:calendar: 作成日：2021.8.3　:calendar: 更新日：2021.8.3
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 基本情報
 
-## Project layout
+TODO: 後ほど
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## スキル
+### 開発言語
+
+!!! note "開発言語"
+    - Typescript
+    - SQLite
+    - Swift
+    - Java
+    - GAS
+    - Python3
+
+
+### フレームワーク
+
+!!! note "フレームワーク"
+    - React
+    - React Native
+    - Spring Boot
+
+
+### ツール
+
+!!! note "ツール"
+    - Docker
+    - Pulumi
+    - Hasura
+    - Git
+        - Github
+        - AWS Codecommit
+        - Bitbacket
+    - Heroku
+    - CI/CD
+        - AWS CodeBuild
+        - Jenkins
+        - Github Actions
+    - Google Analytics
+    - Slack API
+    - エコシステム
+        - 認証
+            - Auth0
+            - Cognito
+    - Amplify
+    - Google Workspace(旧Gsite)
+        - メール設定などに携わる
+
+### その他
+
+!!! note "その他"
+    - アジャイル開発(数年の経験あり)
+    - 社内ツールの作成
+        - Slackのワークフローを用いた勤怠連絡
+        - SlackのAPIを用いた勤怠連絡抽出ツールの作成
+    - 社内の見積りの相談、技術的な相談に乗ることも多々実施
+    - 社外プロジェクトのシステムはフロント、API、インフラなどの技術的な対応はすべて一人で実施
+
+<!-- - 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど -->
+
+<!-- ## やったことはないが興味があるもの -->
+
+## 職務経歴
+
+### **2016/04 ~ 現在** : ****株式会社
+
+#### 職01：3D表示Webアプリケーションの基盤/リプレイス開発
+
+!!! note "3D表示Webアプリケーションのリプレイス開発 `プロジェクトリーダー(PL)` / `iOSアプリエンジニア` :java:"
+
+    - **業務年数：** 0年6月（2021.03 ~ 現在）
+
+    - **職務詳細**
+
+        - 業務開発の要件定義
+        - 検証iOSアプリの開発
+
+#### 職02：3D表示Webアプリケーションの開発
+
+!!! abstract "3D表示Webアプリケーションの開発 `Webエンジニア(SSR)` / `iOSアプリエンジニア` / `AWS`"
+
+    - **業務年数：** 0年2月（2021.03 ~ 2021.04）
+
+    - **職務詳細**
+
+        - 既存システムの類似アプリの開発
+        - 検証iOSアプリの開発
+
+#### 職03：棒衣服メーカのアプリの税込み対応
+
+!!! note "某衣服メーカのアプリの税込み対応 `Android` / `iOS` / `新人教育`"
+
+    **業務年数：** 0年3月（2021.02 ~ 2021.05）
+
+    **職務詳細**
+
+    - Webおよびスマートフォンアプリを用いた遠隔診療システムの開発
+
+#### 職04：TV電話を用いた学習アプリの開発
+
+!!! abstract "TV電話を用いた学習アプリの開発 `ReactNative` / `Auth0` / `アジャイル開発` :react:"
+
+    **業務年数：** 0年2月（2020.10 ~ 2021.03）
+
+    **職務詳細**
+
+    - ReactNativeを用いたTV電話開発
+
+#### 職05：社内マッチングアプリの開発
+
+!!! note "社内マッチングアプリの開発 `React(SPA)` / `Auth0` / `アジャイル開発` / `Neo4J`"
+
+    **業務年数：** 0年6月（2020.04 ~ 2020.10）
+
+    **職務詳細**
+
+    - グラフデータベースを用いた社内マッチングアプリの開発
+    - 社内の知権の共有システム
+
+#### 職06：遠隔診療システム
+
+!!! abstract "遠隔診療システム `プロジェクトリーダー(PL)` / `TV電話` / `Auth0` / `アジャイル開発` / `決済システム`"
+
+    **業務年数：** 1年7月（2018.10 ~ 2020.03）
+
+    **職務詳細**
+
+    - Webおよびスマートフォンアプリを用いた遠隔診療システムの開発
+
+#### 職07：某衣料メーカのファンアプリの初期開発
+
+!!! note "某衣料メーカのファンアプリの初期開発 `CMS`"
+
+    **業務年数：** 0年4月（2018.06 ~ 2018.10）
+
+    **職務詳細**
+
+    - コンテンツの配信システムの開発
+
+#### 職08：メールシステムの新規開発のテスト設計/自動化/実施
+
+!!! abstract "メールシステムの新規開発のテスト設計/自動化/実施 `Junit` / `Selenium`"
+
+    **業務年数：** 0年3月（2018.03 ~ 2018.06）
+
+    **職務詳細**
+
+    - テスト設計/実施
+    - テストの自動化
+
+#### 職09：某私鉄の公式アプリの保守/追加開発
+
+!!! note "某私鉄の公式アプリの保守/追加開発 `Androidアプリ` / `iOSアプリ` / `CMS`"
+
+    **業務年数：** 1年7月（2016.08 ~ 2018.03）
+
+    **職務詳細**
+
+    - 保守/追加開発
+
+## 課外活動
+
+
+### 受賞歴
+
+!!! note "受賞歴"
+
+    * 2012年
+        - [モバイルアプリコンテスト　2012](http://kuma2.isl.titech.ac.jp/mac/) 準優秀賞
+        - [東北学院大学 学長表彰](https://www.tohoku-gakuin.ac.jp/info/top/121206-2.html) 学長表彰
+    * 2018年
+        - [SPAJAM2018](https://history.spajam.jp/2018/entry/sendai/) 予選落ち
+        - [駅すぱあとオンラインハッカソン](https://givery.co.jp/press/2595/) 最優秀賞
+
+
+### 社外プロジェクト
+!!! note "携わっているサービス"
+
+    - [歯列矯正プラン提供サービス - dentable](https://dentable.life/)
+
+### 執筆歴
+!!! note "執筆歴"
+
+    - [Qiita](https://qiita.com/YMori0811)
+
+## お問い合わせ
+
+!!! note "メール"
+    - tobe77537@gmail.com
+
+[お問い合わせ(メール)](mailto:tobe77537@gmail.com){ .md-button .md-button--primary }
+
