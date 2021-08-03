@@ -1,0 +1,12 @@
+site_name: Document
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      clickable_checkbox: true
